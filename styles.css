@@ -22,3 +22,12 @@ textarea {
     font-size: large;
     background-color: transparent;
 }
+
+
+.output {
+    height: 10vh;
+    border: 0.5px solid black;
+    margin: 1rem auto;
+    max-width: 80%;
+    text-align: center;
+}

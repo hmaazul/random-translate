@@ -1,11 +1,11 @@
-var textInput = document.querySelector("#text-input");
+var textInput = document.querySelector("#txt-input");
 var btnTranslate = document.querySelector("#btn-translate");
+var outputTxt = document.querySelector("#output-txt");
 
-console.log(textInput);
+console.log(textInput);   //to select the text area 
 
 btnTranslate.addEventListener("click", clickHandler);
 
 function clickHandler() {
-    console.log("click done!");
-    console.log(textInput.value);
+    outputTxt.innerHTML = textInput.value; 
 }
