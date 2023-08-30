@@ -7,5 +7,5 @@ console.log(textInput);   //to select the text area
 btnTranslate.addEventListener("click", clickHandler);
 
 function clickHandler() {
-    outputTxt.innerHTML = textInput.value; 
+    outputTxt.innerText = textInput.value; 
 }
