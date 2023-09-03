@@ -9,3 +9,5 @@ btnTranslate.addEventListener("click", clickHandler);
 function clickHandler() {
     outputTxt.innerText = textInput.value; 
 }
+
+//https://bananaspeakpractice.netlify.app/
